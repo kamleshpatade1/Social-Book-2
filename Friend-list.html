@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friends - Facebook Clone</title>
+  
+  <style>
+    .friends-container {
+      width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.09);
+      border-radius: 12px;
+      font-family: Arial, sans-serif;
+    }
+    .friends-title {
+      text-align: center;
+      font-size: 1.3rem;
+      color: #29487d;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+    .friend-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      justify-content: center;
+    }
+    .friend-card {
+      background: #f6f6f6;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+      padding: 16px 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .friend-pic {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 8px;
+    }
+    .friend-name {
+      font-weight: bold;
+      color: #222;
+      font-size: 1rem;
+      margin-bottom: 2px;
+    }
+    .friend-status {
+      color: #35a85d;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="friends-container">
+    <div class="friends-title">Your Friends</div>
+    <div class="friend-list">
+      <div class="friend-card">
+        <img src="https://wallpapers.com/images/hd/cool-profile-picture-ld8f4n1qemczkrig.jpg" alt="Friend 1" class="friend-pic">
+        <div class="friend-name">Akshay Kumar</div>
+        <div class="friend-status">Online</div>
+      </div>
+      <div class="friend-card">
+        <img src="https://i.pinimg.com/736x/83/20/95/832095f48d1718343c89c6e09fb19fb6.jpg" alt="Friend 2" class="friend-pic">
+        <div class="friend-name">MS Dhoni</div>
+        <div class="friend-status" style="color:#b2b2b2;">Offline</div>
+      </div>
+      <div class="friend-card">
+        <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="Friend 3" class="friend-pic">
+        <div class="friend-name">Smriti Mandhana</div>
+        <div class="friend-status">Online</div>
+      </div>
+    
+    </div>
+  </div>
+</body>
+</html>
