@@ -230,3 +230,134 @@ nav {
         width: 95vw;
     }
 }
+
+/* ---------- LARGE SCREENS (DEFAULT DESKTOP) ---------- */
+/* No changes needed here — your design is good */
+
+
+/* ---------- TABLETS (below 1000px) ---------- */
+@media (max-width: 1000px) {
+
+    header {
+        flex-wrap: wrap;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .search {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .sidebar,
+    .rightbar,
+    .feed {
+        width: 94%;
+        margin: 12px auto;
+    }
+}
+
+
+/* ---------- MOBILES (below 600px) ---------- */
+@media (max-width: 600px) {
+
+    header {
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .login-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .search {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .create-post textarea {
+        height: 80px;
+        font-size: 15px;
+    }
+
+    .create-post button {
+        width: 100%;
+    }
+
+    .post {
+        padding: 14px;
+    }
+
+    .username {
+        font-size: 16px;
+    }
+
+    .post-content {
+        font-size: 15px;
+    }
+
+    .post-actions a {
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    .rightbar {
+        padding: 14px 10px;
+    }
+
+    .friend-suggestion button {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+
+/* ---------- EXTRA SMALL PHONES (below 400px) ---------- */
+@media (max-width: 400px) {
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .post-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .avatar {
+        margin-bottom: 6px;
+    }
+
+    .timestamp {
+        font-size: 11px;
+    }
+}
